@@ -1,32 +1,89 @@
-.banner{
+.celebration{
     position: 50px 130px 120px;
     text-align: center;
     background-size:cover;
-    background-position: center;
-.banner-content{
+    background-position: center;}
+.banner{
+    border: 4px solid greenyellow;
+position: absolute;
+}
+
+.content{
+    position: relative;
     max-width: 500px;
     text-align:center ;
     font-size: 25px;
 }
-/* main section styles */
 
-
-/* offer section styles */
-.section-content{
-    text-align: center;
+.text{
+    font-size: 30px;
 }
 
+/* main section styles */
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer{
+    background-position: center;
+    border: 4px green solid;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+   
+   }
+.offer img{
+    width: 500px;
+    height: 500px;
+}
+
+/* category section styles */
 .section-offer{
+    border: 2px solid red;
+}
+
+.section-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width:1600px;
     padding: 120px 380px;
-    background: #fff;
-    text-align: center;
+      text-align: center;
+    justify-items: center;
 }
 
 .section-title{
     color: #F00;
 font-size: 88px;
 font-weight: 700;
+}
+
+.welcome{
+    background-image:url("../new-year-porto/images/Vectorrr.png") ;
+}
+
+/* place container */
+
+.place-container{
+    background-color: #ebd2d2;
+    border: 4px solid blue;
+    text-align: center;
+        height: 250px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    font-weight: 600;
+
+
+    
 }
 
 

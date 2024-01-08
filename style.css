@@ -22,8 +22,7 @@
 }
 
 /* main section styles */
-;
-}
+
 
 .offer {
     background-position: center;
@@ -43,26 +42,38 @@
 }
 
 /* category section styles */
-.section-offer {
+.offer{
     border: 2px solid red;
+    width: 30%;
+    justify-items: center;
 }
 
-.section-content {
-    display: flex;
+.offer-content {
     align-items: center;
-    justify-content: center;
-
-    width: 1600px;
-    padding: 120px 380px;
     text-align: center;
     justify-items: center;
 }
 
-.section-title {
+.offer-title{
     color: #F00;
     font-size: 88px;
     font-weight: 700;
+    text-align: center;
 }
+.offer-text{
+    color: #F00;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+
+}
+.offer-category{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+}
+
 
 /* welcome section */
 .welcome {
@@ -77,7 +88,7 @@
 }
 
 .welcome-content {
-    align items: center;
+   align-items: center;
 }
 
 .join {
@@ -112,6 +123,7 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: ;
 
 }
 .place-content{
@@ -120,6 +132,13 @@
     text-align: center;
     line-height: 50px;
     line-gap-override: 20px;
+    width: 1000px;
+    height: 45opx;
+    border: 2px solid green;
+    padding: 40px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: linear gainsboro;
 }
 
 .btn-pri {
@@ -134,17 +153,16 @@
 .coming {
     margin: 20px;
     padding: 10px;
-    gap: 70px;
-    display: flex;
 }
 
 .coming-Soon {
     display: flex;
-    border: 10px solid aquamarine;
+    border: 2px solid red;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
+    width: 36%;
+
 }
 
 .coming-title {
@@ -152,6 +170,7 @@
     text-align: center;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: px;
 }
 
 
@@ -165,7 +184,9 @@
     color: #070211;
     font-size: 20px;
     font-weight: 400;
-
+    line-height: 28px;
+    margin-top: 4px;
+}
     /*holiday sale section */
     .holi-sale>img {
         text-align: center;
@@ -174,25 +195,29 @@
         margin: 50%;
 
     }
+    .holi-sale{
+        border: 2px solid brown;
+    }
 
     .holi-head {
         color: #070211;
         font-size: 24px;
         font-weight: 500;
     }
-
+/* 
     .holi-title {
         color: #F00;
         text-align: center;
         font-size: 72px;
         font-weight: 900;
-    }
-
+    } */
+/* 
     .holi-descrip {
-        color: black text-align: center;
+        color: black;
+         text-align: center;
         font-size: 20px;
         font-weight: 500;
-    }
+    } */
 
     /* portfolio section */
     .portfolio {

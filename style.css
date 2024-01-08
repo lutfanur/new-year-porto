@@ -22,10 +22,7 @@
 }
 
 /* main section styles */
-.welcome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+;
 }
 
 .offer {
@@ -67,35 +64,78 @@
     font-weight: 700;
 }
 
+/* welcome section */
 .welcome {
-    background-image: url("../new-year-porto/images/Vectorrr.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("./images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.welcome-content {
+    align items: center;
+}
+
+.join {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.welcome-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    width: 70%;
+    height: 100px;
+}
+
+.welcome-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
 }
 
 /* place container */
 
 .place-container {
-    background-color: #ebd2d2;
-    border: 4px solid blue;
     text-align: center;
-    height: 250px;
+    height: 400px;
     margin-bottom: 40px;
     width: 60%;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 32px;
-    font-weight: 600px;
+
+}
+.place-content{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    line-gap-override: 20px;
 }
 
 .btn-pri {
     color: #F00;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
 }
-}
+
 
 /*  comingSoon section */
 .coming {
     margin: 20px;
     padding: 10px;
     gap: 70px;
+    display: flex;
 }
 
 .coming-Soon {
@@ -127,15 +167,11 @@
     font-weight: 400;
 
     /*holiday sale section */
-    .holi-sale {
-        background: #FFF;
-        border: 8px solid greenyellow;
+    .holi-sale>img {
         text-align: center;
-        height: 250px;
-        margin-bottom: 40px;
         width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 70%;
+        margin: 50%;
 
     }
 
@@ -151,19 +187,21 @@
         font-size: 72px;
         font-weight: 900;
     }
-    .holi-descrip{
-    color: black
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-}
-/* portfolio section */
-.portfolio{
-    border-radius: 20px;
-    text-align: center;
-}
-.subscribe{
-    border-radius: 16px;
-    background: #FFF;
-    text-align: center;
-}
+
+    .holi-descrip {
+        color: black text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* portfolio section */
+    .portfolio {
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .subscribe {
+        border-radius: 16px;
+        background: #FFF;
+        text-align: center;
+    }

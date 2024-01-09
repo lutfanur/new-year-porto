@@ -312,7 +312,7 @@
 }
 
 /* subscribe section */
-.subscribe {
+.sub-content{
     border: 2px solid blue;
     border-radius: 16px;
     height: 500px;
@@ -342,31 +342,37 @@
 }
 
 /* border: 2px solid blue; */
-.gmail {
-    border-radius: 50px;
-    width: 648 px;
-    height: 70px;
-}
-
-.sub-content .gmail,
-.btn-pri {
+.bg-btn{
+    border: 2px solid black;
     width: 600px;
+    display: flex;
 }
-
+.gmail {
+    background: #FFF;
+    border-radius: 50px 0px 0px 50px;
+    width: 648px;
+    height: 80px;
+}
 .btn-subs {
     font-size: 28px;
-    width: 50px;
+    width: 250px;
+    height: 85px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
 }
 
 
 /* footer */
 
- .footer{
-     padding: 12px;
-     font-size: 18px;
-     border: 2px solid black;
+.footer {
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid black;
 }
-.contact{}
+
+.contact {
+    display: flex;
+}
 
 .phone {
     font-size: 18px;

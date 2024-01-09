@@ -235,8 +235,24 @@
 .images img {
     width: 30%;
     min-height: auto;
+}
+
+.one {
+    margin-left: 12px;
+    border: 2px solid red;
+    width: 100%;
 
 }
+
+.two {
+    padding-bottom: -4px;
+    margin-bottom: -4px;
+
+
+}
+
+.three {}
+
 
 .holi {
     text-align: center;
@@ -267,11 +283,11 @@
 
 /* portfolio section */
 .portfolio {
-    border: 2px solid salmon;
-    padding-top: 0%;
+    border: 0.2px solid salmon;
 
 }
-.port-content{
+
+.port-content {
     text-align: left;
     margin-left: 80px;
     margin-right: 580px;
@@ -281,31 +297,66 @@
     color: #F00;
     font-size: 28px;
     font-weight: 500;
-    margin-top: 200px;
+    /* margin-top: 60px; */
 }
 
 .port-title {
     color: #070211;
     font-size: 48px;
-    font-weight: 900;
-     margin-bottom: 30px; 
+    font-weight: 90
+        /* margin-bottom: 250px;  */
 }
 
- .port-descrip {
+.port-descrip {
     color: #07021199;
     font-size: 20px;
     font-weight: 700;
-    border: 2px  solid blue;
-     margin-bottom: 50px; 
-} 
-.picture{
+    border: 2px solid blue;
+    /* margin-bottom: 500px;  */
+}
+
+.picture {
     border-radius: 16px;
     width: 100px;
-    height: 120px; 
+    height: 120px;
+    /* margin-bottom: 500px; */
 }
+
 /* subscribe section */
 .subscribe {
+    border: 2px solid blue;
     border-radius: 16px;
-    background: #FFF;
+    height: 500px;
     text-align: center;
+    width: 1000px;
+    background: #ff00000d;
+
+    /* border-radius: 16px;
+    background: #FFF;
+    text-align: center; */
+}
+
+.sub-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-deccrip {
+    color: #07021199;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: 2px solid blue; */
+}
+
+
+/* footer */
+
+.footer-column {
+    height: 400px;
+    border: #F00 4px solid;
 }

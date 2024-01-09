@@ -355,8 +355,19 @@
 
 
 /* footer */
-
+/* 
 .footer-column {
     height: 400px;
     border: #F00 4px solid;
+} */
+/* .foot{
+    border: 2px solid blueviolet;
+    width: 1600px;
+    height: 600px;
+    display: flex;
+
+} */
+.footer{
+    border: 2px solid black;
+    display: flex;
 }

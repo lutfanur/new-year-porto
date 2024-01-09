@@ -372,9 +372,20 @@
     display: flex;
 }
 
-.phone {
+.myphone {
     font-size: 18px;
     margin-top: 30px;
+    margin-bottom: 18px;
+}
+.onePic{
+    margin-bottom: 12px;
+    justify-content: center;
+    display: flex;
+}
+.twoPic{
+    margin-bottom: 12px;
+    justify-content: center;
+    display: flex;
 }
 
 .address {

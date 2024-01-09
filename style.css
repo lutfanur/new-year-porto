@@ -42,8 +42,7 @@
 
 .offer {
     background-position: center;
-    border: 4px green solid;
-    justify-content: center;
+       justify-content: center;
     align-items: center;
     text-align: center;
     width: 70%;
@@ -59,9 +58,7 @@
 
 /* category section styles */
 .offer {
-    border: 2px solid red;
-
-    justify-items: center;
+        justify-items: center;
     padding-top: 4px;
     padding-bottom: 12px;
     margin-bottom: 12px;
@@ -159,8 +156,7 @@
     line-gap-override: 20px;
     width: 1000px;
     height: 45opx;
-    border: 2px solid green;
-    padding: 40px 50px;
+       padding: 40px 50px;
     margin-left: auto;
     margin-right: auto;
     background-color: linear gainsboro;
@@ -182,7 +178,7 @@
 
 .coming-Soon {
     display: flex;
-    border: 2px solid red;
+  
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -215,7 +211,7 @@
 
 /*holiday sale section */
 .holi-sale {
-    border: .1px solid brown;
+    
     /* width: 1000px;
         height: 500px; */
 
@@ -272,7 +268,7 @@
 
 /* portfolio section */
 .portfolio {
-    border: 0.2px solid salmon;
+    /* border: 0.2px solid salmon; */
 
 }
 
@@ -313,7 +309,7 @@
 
 /* subscribe section */
 .sub-content{
-    border: 2px solid blue;
+    
     border-radius: 16px;
     height: 500px;
     text-align: center;
@@ -343,7 +339,7 @@
 
 /* border: 2px solid blue; */
 .bg-btn{
-    border: 2px solid black;
+    
     width: 600px;
     display: flex;
 }
@@ -368,6 +364,8 @@
     padding: 12px;
     font-size: 18px;
     border: 2px solid black;
+    background-color: black;
+    color: white;
 }
 
 .contact {
@@ -385,8 +383,8 @@
 
 .pics {
     text-align: center;
-    border-top: #070211 2px solid;
-    border-bottom: #070211 2px solid;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
     width: 80%;
     padding-top: 14px;
     padding-bottom: 14px;

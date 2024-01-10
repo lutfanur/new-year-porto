@@ -224,19 +224,32 @@
 
 .one {
     margin-left: 12px;
-    border: 2px solid red;
-    width: 100%;
+    /* border: 2px solid red; */
+    width: 80%;
 
 }
 
 .two {
-    padding-bottom: -4px;
-    margin-bottom: -4px;
-
+    position: relative;
+    top: 100px;
+    left: 60px;
 
 }
 
-.three {}
+.three {
+    position: relative;
+    z-index: 15;
+
+    
+
+    
+}
+.four{
+    position: relative;
+    right: 150px;
+    z-index: 7.5;
+      
+}
 
 
 .holi {
